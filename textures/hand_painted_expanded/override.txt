@@ -1,0 +1,399 @@
+default:cactus top default_cactus_top_top.png
+default:axe_steel inventory,wield default_tool_axe_shaft.png^(default_tool_axe_head.png^[hsl:0:-100)
+default:axe_bronze inventory,wield default_tool_axe_shaft.png^(default_tool_axe_head.png^[hsl:25:-40)
+default:axe_wood inventory,wield default_tool_woodaxe.png^default_tool_axe_shaft.png
+default:axe_stone inventory,wield default_tool_axe_shaft.png^default_tool_stoneaxe.png
+default:axe_diamond inventory,wield default_tool_axe_shaft.png^default_tool_diamondaxe.png
+default:axe_mese inventory,wield default_tool_axe_shaft.png^default_tool_meseaxe.png
+
+default:diamondblock all crystal.png^[hsl:208:-40
+default:mese all crystal.png^[hsl:50
+mcl_core:emeraldblock all crystal.png^[hsl:120:-20:-10
+
+default:pick_wood inventory,wield default_stick.png^default_tool_woodpick.png
+default:pick_stone inventory,wield default_stick.png^default_tool_stonepick.png
+default:pick_steel inventory,wield default_stick.png^default_tool_steelpick.png
+default:pick_bronze inventory,wield default_stick.png^default_tool_bronzepick.png
+default:pick_diamond inventory,wield default_stick.png^default_tool_diamondpick.png
+default:pick_mese inventory,wield default_stick.png^default_tool_mesepick.png
+
+default:shovel_wood inventory,wield default_stick.png^default_tool_woodshovel.png
+default:shovel_stone inventory,wield default_stick.png^default_tool_stoneshovel.png
+default:shovel_steel inventory,wield default_stick.png^(default_tool_bronzeshovel.png^[hsl:0:-100:0)
+default:shovel_bronze inventory,wield default_stick.png^default_tool_bronzeshovel.png
+default:shovel_diamond inventory,wield default_stick.png^default_tool_diamondshovel.png
+default:shovel_mese inventory,wield default_stick.png^default_tool_meseshovel.png
+
+farming:hoe_steel inventory,wield default_tool_axe_shaft.png^farming_tool_steelhoe.png
+farming:hoe_stone inventory,wield default_tool_axe_shaft.png^farming_tool_stonehoe.png
+farming:hoe_wood inventory,wield default_tool_axe_shaft.png^farming_tool_woodhoe.png
+
+
+mesecons_pressureplates:pressure_plate_wood_off top,sides,inventory,wield default_wood.png
+mesecons_pressureplates:pressure_plate_wood_on top,sides default_wood.png
+mesecons_pressureplates:pressure_plate_stone_off top,sides,inventory,wield default_stone.png
+mesecons_pressureplates:pressure_plate_stone_on top,sides default_stone.png
+
+mesecons_lightstone:lightstone_blue_off all jeija_lightstone.png^[multiply:#3131da
+mesecons_lightstone:lightstone_blue_on all jeija_lightstone.png^[multiply:#4949fe
+mesecons_lightstone:lightstone_cyan_off all jeija_lightstone.png^[multiply:#019d9b
+mesecons_lightstone:lightstone_cyan_on all jeija_lightstone.png^[multiply:#53fffd
+mesecons_lightstone:lightstone_darkgray_off all jeija_lightstone.png^[multiply:#515152
+mesecons_lightstone:lightstone_darkgray_on all jeija_lightstone.png^[multiply:#5e5e5f
+mesecons_lightstone:lightstone_gray_off all jeija_lightstone.png^[multiply:#888889
+mesecons_lightstone:lightstone_gray_on all jeija_lightstone.png^[multiply:#9c9c9d
+mesecons_lightstone:lightstone_green_off all jeija_lightstone.png^[multiply:#019d01
+mesecons_lightstone:lightstone_green_on all jeija_lightstone.png^[multiply:#52ff52
+mesecons_lightstone:lightstone_magenta_off all jeija_lightstone.png^[multiply:#9a004c
+mesecons_lightstone:lightstone_magenta_on all jeija_lightstone.png^[multiply:#ff2993
+mesecons_lightstone:lightstone_orange_off all jeija_lightstone.png^[multiply:#e87e00
+mesecons_lightstone:lightstone_orange_on all jeija_lightstone.png^[multiply:#ff971d
+mesecons_lightstone:lightstone_pink_off all jeija_lightstone.png^[multiply:#f65b5b
+mesecons_lightstone:lightstone_pink_on all jeija_lightstone.png^[multiply:#ff9393
+mesecons_lightstone:lightstone_red_off all jeija_lightstone.png^[multiply:#990000
+mesecons_lightstone:lightstone_red_on all jeija_lightstone.png^[multiply:#ff2828
+mesecons_lightstone:lightstone_violet_off all jeija_lightstone.png^[multiply:#50009a
+mesecons_lightstone:lightstone_violet_on all jeija_lightstone.png^[multiply:#9829ff
+mesecons_lightstone:lightstone_white_off all jeija_lightstone.png^[multiply:#e4e4e4
+mesecons_lightstone:lightstone_white_on all jeija_lightstone.png^[multiply:#e9e9e9
+mesecons_lightstone:lightstone_yellow_off all jeija_lightstone.png^[multiply:#dad832
+mesecons_lightstone:lightstone_yellow_on all jeija_lightstone.png^[multiply:#fefb4a
+
+
+mesecons_detector:object_detector_on sides default_steel_block.png^(jeija_object_detector.png^[multiply:#52ff52)
+mesecons_detector:object_detector_off sides default_steel_block.png^(jeija_object_detector.png^[multiply:#ff2828)
+mesecons_detector:node_detector_on front default_steel_block.png^(jeija_node_detector.png^[multiply:#52ff52)
+mesecons_detector:node_detector_off front default_steel_block.png^(jeija_node_detector.png^[multiply:#ff2828)
+
+
+mesecons_pistons:piston_sticky_off front mesecons_piston_pusher_front.png^mesecons_glue_layer.png
+mesecons_pistons:piston_pusher_sticky front mesecons_piston_pusher_front.png^mesecons_glue_layer.png
+
+mesecons_stickyblocks:sticky_block_all all default_wood.png^mesecons_glue_layer.png
+
+mesecons_random:ghoststone all default_obsidian.png
+mesecons_random:removestone all default_obsidian.png
+
+mesecons_switch:mesecon_switch_on all default_stone_block.png
+mesecons_switch:mesecon_switch_off all default_stone_block.png
+mesecons_switch:mesecon_switch_on front default_stone_block.png^(jeija_node_detector.png^[multiply:#52ff52)
+mesecons_switch:mesecon_switch_off front default_stone_block.png^(jeija_node_detector.png^[multiply:#ff2828)
+
+mesecons_movestones:movestone top,bottom default_stone_block.png
+mesecons_movestones:sticky_movestone top,bottom default_stone_block.png
+
+mesecons_movestones:movestone_vertical top,bottom default_stone_block.png
+mesecons_movestones:sticky_movestone_vertical top,bottom default_stone_block.png^mesecons_glue_layer
+
+mesecons_walllever:wall_lever_off bottom,sides default_stone_block.png
+mesecons_walllever:wall_lever_on bottom,sides default_stone_block.png
+mesecons_button:button_off bottom,top,back,left,right default_stone_block.png
+mesecons_button:button_on bottom,top,back,left,right default_stone_block.png
+mesecons_button:button_off front default_stone_block.png^([fill:128x128:#949517^[mask:jeija_wall_button.png)
+mesecons_button:button_on front default_stone_block.png^([fill:128x128:#f2f22f^[mask:jeija_wall_button.png)
+
+mesecons_powerplant:power_plant all,inventory jeija_torches_on^default_grass_4
+mesecons_blinkyplant:blinky_plant_on all,inventory jeija_torches_on^default_grass_4
+mesecons_blinkyplant:blinky_plant_off all,inventory jeija_torches_off^default_grass_4
+
+digistuff:vertical_top all digiline_std.png
+digistuff:vertical_middle all digiline_std.png
+digistuff:vertical_bottom all digiline_std.png
+digistuff:detector all default_steel_block.png^(jeija_object_detector.png^[multiply:#4444dd)
+digistuff:movestone top,bottom default_stone_block.png
+digistuff:digimese all default_mese_block.png^[colorizehsl:230
+digistuff:ram top digistuff_ram_top.png^[resize:256x256^jeija_controller_overlay_no_ports.png
+digistuff:gpu top digistuff_gpu_top.png^[resize:256x256^jeija_controller_overlay_no_ports.png
+digistuff:timer top digistuff_timer_top.png^[resize:256x256^jeija_controller_overlay_no_ports.png
+digistuff:eeprom top digistuff_eeprom_top.png^[resize:256x256^jeija_controller_overlay_no_ports.png
+digistuff:button bottom,top,back,left,right default_stone_block.png
+digistuff:button_off bottom,top,back,left,right default_stone_block.png
+digistuff:button_off_pushed bottom,top,back,left,right default_stone_block.png
+digistuff:button_on bottom,top,back,left,right default_stone_block.png
+digistuff:button_on_pushed bottom,top,back,left,right default_stone_block.png
+digistuff:button front default_stone_block.png^([fill:128x128:#1d3297^[mask:jeija_wall_button.png)
+digistuff:button_off front default_stone_block.png^([fill:128x128:#1d3297^[mask:jeija_wall_button.png)
+digistuff:button_off_pushed front default_stone_block.png^([fill:128x128:#1d3297^[mask:jeija_wall_button.png)
+digistuff:button_on front default_stone_block.png^([fill:128x128:#5265c4^[mask:jeija_wall_button.png)
+digistuff:button_on_pushed front default_stone_block.png^([fill:128x128:#5265c4^[mask:jeija_wall_button.png)
+
+mcl_mobitems:milk_bucket inventory,wield mobs_bucket_milk.png
+mcl_mobitems:feather inventory,wield mobs_chicken_feather.png
+
+fachwerk:framed_glass all default_glass.png^fachwerk_blank.png
+
+claycrafter:compressed_dirt all default_dirt.png^[multiply:#ddd
+claycrafter:claycrafter back,top,bottom,left,right default_wood.png^fachwerk_blank.png
+claycrafter:claycrafter front [fill:128x128:#517171^default_glass.png^fachwerk_blank.png
+
+claycrafter:glass_of_water inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:200:8:50)
+farming:glass_water inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:200:8:50)
+ethereal:lemonade inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:57:50:30)
+farming:smoothie_berry inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:-40:0:-30)
+farming:smoothie_raspberry inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:-10:0:0)
+farming:carrot_juice inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:20:0:0)
+farming:pineapple_juice inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:40:0:0)
+farming:cactus_juice inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:90:0:-40)
+farming:mint_tea inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:80:-10:40)
+farming:coffee_cup inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:20:0:-80)
+farming:soy_milk inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:50:-60:80)
+mobs:glass_milk inventory,wield vessels_drinking_glass.png^(vessels_drinking_glass_content.png^[hsl:50:-90:90)
+vessels:drinking_glass inventory vessels_drinking_glass.png
+
+farming:coffee_cup all vessels_drinking_glass_node.png^(vessels_drinking_glass_node_content.png^[hsl:20:0:-80)
+claycrafter:glass_of_water all vessels_drinking_glass_node.png^(vessels_drinking_glass_node_content.png^[hsl:200:8:50)
+ethereal:lemonade all vessels_drinking_glass_node.png^(vessels_drinking_glass_node_content.png^[hsl:57:50:30)
+vessels:drinking_glass all vessels_drinking_glass_node.png
+
+ethereal:firethorn_jelly inventory,wield vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:37)
+ethereal:flight_potion inventory,wield,all vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:180)
+ethereal:olive_oil inventory,wield vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:80)
+farming:sunflower_oil inventory,wield vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:70)
+farming:hemp_oil inventory,wield,all vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:90)
+farming:soy_sauce inventory,wield,all vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:20:0:-90)
+farming:vanilla_extract inventory,wield,all vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:20:0:-70)
+farming:rose_water all,inventory,wield vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:20:0:60)
+farming:bottle_ethanol all,inventory,wield vessels_glass_bottle.png^(vessels_glass_bottle_content.png^[hsl:-100:50:80)
+
+screwdriver2:screwdriver inventory,wield screwdriver.png^(screwdriver_handle.png^[hsl:-50)
+
+c_doors:dbl_wood_win_sml top,bottom default_wood.png
+c_doors:dbl_wood_win_sml sides c_doors_glass.png^(default_wood.png^[mask:c_doors_mask.png)
+c_doors:dbl_wood_win_sml_open top,bottom default_wood.png
+c_doors:dbl_wood_win_sml_open sides c_doors_glass.png^(default_wood.png^[mask:c_doors_mask.png)
+c_doors:dbl_wood_win_lg top,bottom default_wood.png
+c_doors:dbl_wood_win_lg sides c_doors_glass.png^(default_wood.png^[mask:c_doors_mask.png)
+c_doors:dbl_wood_win_lg_open top,bottom default_wood.png
+c_doors:dbl_wood_win_lg_open sides c_doors_glass.png^(default_wood.png^[mask:c_doors_mask.png)
+
+c_doors:dbl_obsidian_glass_win_sml top,bottom default_obsidian.png
+c_doors:dbl_obsidian_glass_win_sml sides c_doors_glass.png^[fill:128x128:#00000077^(default_obsidian.png^[mask:c_doors_mask.png)
+c_doors:dbl_obsidian_glass_win_sml_open top,bottom default_obsidian.png
+c_doors:dbl_obsidian_glass_win_sml_open sides c_doors_glass.png^[fill:128x128:#00000077^(default_obsidian.png^[mask:c_doors_mask.png)
+c_doors:dbl_obsidian_glass_win_lg top,bottom default_obsidian.png
+c_doors:dbl_obsidian_glass_win_lg sides c_doors_glass.png^[fill:128x128:#00000077^(default_obsidian.png^[mask:c_doors_mask.png)
+c_doors:dbl_obsidian_glass_win_lg_open top,bottom default_obsidian.png
+c_doors:dbl_obsidian_glass_win_lg_open sides c_doors_glass.png^[fill:128x128:#00000077^(default_obsidian.png^[mask:c_doors_mask.png)
+
+c_doors:dbl_steel_win_sml top,bottom [fill:128x128:#b0b7ba
+c_doors:dbl_steel_win_sml sides c_doors_glass.png^([fill:128x128:#b0b7ba^[mask:c_doors_mask.png)
+c_doors:dbl_steel_win_sml_open top,bottom [fill:128x128:#b0b7ba
+c_doors:dbl_steel_win_sml_open sides c_doors_glass.png^([fill:128x128:#b0b7ba^[mask:c_doors_mask.png)
+c_doors:dbl_steel_win_lg top,bottom [fill:128x128:#b0b7ba
+c_doors:dbl_steel_win_lg sides c_doors_glass.png^([fill:128x128:#b0b7ba^[mask:c_doors_mask.png)
+c_doors:dbl_steel_win_lg_open top,bottom [fill:128x128:#b0b7ba
+c_doors:dbl_steel_win_lg_open sides c_doors_glass.png^([fill:128x128:#b0b7ba^[mask:c_doors_mask.png)
+
+c_doors:dbl_glass_win_sml top,bottom,left,right c_doors_glass_side.png
+c_doors:dbl_glass_win_lg top,bottom,left,right c_doors_glass_side.png
+c_doors:dbl_glass_win_sml front,back c_doors_glass.png
+c_doors:dbl_glass_win_lg front,back c_doors_glass.png
+c_doors:dbl_glass_win_sml_open top,bottom,front,back c_doors_glass_side.png
+c_doors:dbl_glass_win_lg_open top,bottom,front,back c_doors_glass_side.png
+c_doors:dbl_glass_win_sml_open left,right c_doors_glass.png
+c_doors:dbl_glass_win_lg_open left,right c_doors_glass.png
+
+ethereal:bucket_cactus inventory,wield bucket.png^(bucket_mask.png^[hsl:84:-20:0)
+ethereal:bush all [fill:128x128:#193e0d^default_blueberry_bush_leaves.png^[hsl:20:0:-50
+ethereal:golden_apple inventory,wield,all default_apple^[hsl:35:30:40
+mcl_cherry_blossom:cherryleaves all ethereal_sakura_leaves.png
+mcl_flowers:tulip_red inventory,wield,all flowers_tulip_blossom.png^[hsl:4:20:0^flowers_tulip_stem.png
+mcl_flowers:tulip_pink inventory,wield,all flowers_tulip_blossom.png^[hsl:0:20:50^flowers_tulip_stem.png
+mcl_flowers:tulip_white inventory,wield,all flowers_tulip_blossom.png^[hsl:0:-100:60^flowers_tulip_stem.png
+
+ethereal:gray_dirt top default_grass^[hsl:0:-100:40^[contrast:60:0
+ethereal:fiery_dirt top default_grass^[hsl:-100
+ethereal:mushroom_dirt top default_grass^[hsl:-170:-60:10
+ethereal:crystal_dirt top default_grass^[hsl:100:-10:-10
+ethereal:jungle_dirt top default_grass^[hsl:-10:-20:-50
+ethereal:grove_dirt top default_grass^[hsl:-10:-40:10
+ethereal:prairie_dirt top default_grass^[hsl:-10:-40:10^ground_flowers.png
+ethereal:bamboo_dirt top default_grass^[hsl:0:-50:20
+ethereal:cold_dirt top default_grass^[hsl:0:-70:30
+
+ethereal:gray_moss all default_grass^[hsl:0:-100:40^[contrast:60:0
+ethereal:fiery_moss all default_grass^[hsl:-100
+ethereal:mushroom_moss all default_grass^[hsl:-170:-60:10
+ethereal:crystal_moss all default_grass^[hsl:100:-10:-10
+ethereal:jungle_moss all default_grass^[hsl:-10:-20:-50
+ethereal:grove_moss all default_grass^[hsl:-10:-40:10
+ethereal:prairie_moss all default_grass^[hsl:-10:-40:10^ground_flowers.png
+ethereal:bamboo_moss all default_grass^[hsl:0:-50:20
+ethereal:cold_moss all default_grass^[hsl:0:-70:30
+
+ethereal:gray_dirt sides default_dirt.png^(default_grass_side.png^[hsl:0:-100:40^[contrast:60:0)
+ethereal:fiery_dirt sides default_dirt.png^(default_grass_side.png^[hsl:-100)
+ethereal:mushroom_dirt sides default_dirt.png^(default_grass_side.png^[hsl:-170:-60:10)
+ethereal:crystal_dirt sides default_dirt.png^(default_grass_side.png^[hsl:100:-10:-10)
+ethereal:jungle_dirt sides default_dirt.png^(default_grass_side.png^[hsl:-10:-20:-50)
+ethereal:grove_dirt sides default_dirt.png^(default_grass_side.png^[hsl:-10:-40:10)
+ethereal:prairie_dirt sides default_dirt.png^(default_grass_side.png^[hsl:-10:-40:10)
+ethereal:bamboo_dirt sides default_dirt.png^(default_grass_side.png^[hsl:0:-50:20)
+ethereal:cold_dirt sides default_dirt.png^(default_grass_side.png^[hsl:0:-70:30)
+
+ethereal:yellowleaves all,inventory,wield default_leaves.png^[hsl:-95:20:20
+ethereal:frost_leaves all,inventory,wield default_leaves.png^[hsl:-170:20:-20
+ethereal:basandra_bush_leaves all,inventory,wield default_leaves.png^[hsl:-120:60:0
+
+ethereal:glostone all default_meselamp.png^[contrast:-10:40
+
+ethereal:bowl inventory,wield farming_bowl.png
+farming:porridge inventory,wield farming_bowl.png^(farming_bowl_content.png^[hsl:40:-30)
+farming:pea_soup inventory,wield farming_bowl.png^(farming_bowl_content.png^[hsl:100:-20:-50)
+farming:onion_soup inventory,wield farming_bowl.png^(farming_bowl_content.png^[hsl:50:0:-20)
+farming:tomato_soup inventory,wield farming_bowl.png^(farming_bowl_content.png^[hsl:5:0:-10)
+farming:beetroot_soup inventory,wield farming_bowl.png^(farming_bowl_content.png^[hsl:-5:-30:-20)
+ethereal:mushroom_soup inventory,wield farming_bowl.png^(farming_bowl_content.png^[hsl:-80:-40:-20)
+
+farming:cheese_vegan inventory,wield mobs_cheese.png^[hsl:0:70:-20
+farming:salt inventory,wield powder.png^[hsl:0:-100:80
+farming:sugar inventory,wield powder.png^[hsl:35:-50:50
+farming:peppercorn inventory,wield farming_flour.png^[multiply:#4f1d1d
+farming:bread_multigrain inventory,wield farming_bread.png^[hsl:0:-10:-20
+farming:pepper_red inventory,wield pepper_fruit.png^pepper_stem.png
+farming:pepper inventory,wield pepper_fruit.png^[hsl:100:0:-30^pepper_stem.png
+farming:pepper_yellow inventory,wield pepper_fruit.png^[hsl:40^pepper_stem.png
+farming:tofu_cooked inventory,wield farming_tofu.png^[multiply:#b18c71
+
+farming:barley all,inventory,wield farming_wheat.png^[hsl:0:20:0
+farming:seed_barley all,inventory,wield farming_wheat_seed.png^[hsl:0:20:-10
+farming:oat all,inventory,wield farming_wheat.png^[hsl:0:-20:-20
+farming:seed_oat all,inventory,wield farming_wheat_seed.png^[hsl:0:-20:-20
+farming:rye all,inventory,wield farming_wheat.png^[hsl:0:0:30
+farming:seed_rye all,inventory,wield farming_wheat_seed.png^[hsl:0:0:30
+
+farming:barley_1 all farming_wheat_1.png^[hsl:0:20:0
+farming:barley_2 all farming_wheat_2.png^[hsl:0:20:0
+farming:barley_3 all farming_wheat_3.png^[hsl:0:20:0
+farming:barley_4 all farming_wheat_4.png^[hsl:0:20:0
+farming:barley_5 all farming_wheat_5.png^[hsl:0:20:0
+farming:barley_6 all farming_wheat_6.png^[hsl:0:20:0
+farming:barley_7 all farming_wheat_7.png^[hsl:0:20:0
+farming:barley_8 all farming_wheat_8.png^[hsl:0:20:0
+
+farming:oat_1 all farming_wheat_1.png^[hsl:0:-20:-20
+farming:oat_2 all farming_wheat_2.png^[hsl:0:-20:-20
+farming:oat_3 all farming_wheat_3.png^[hsl:0:-20:-20
+farming:oat_4 all farming_wheat_4.png^[hsl:0:-20:-20
+farming:oat_5 all farming_wheat_5.png^[hsl:0:-20:-20
+farming:oat_6 all farming_wheat_6.png^[hsl:0:-20:-20
+farming:oat_7 all farming_wheat_7.png^[hsl:0:-20:-20
+farming:oat_8 all farming_wheat_8.png^[hsl:0:-20:-20
+
+farming:rye_1 all farming_wheat_1.png^[hsl:0:0:30
+farming:rye_2 all farming_wheat_2.png^[hsl:0:0:30
+farming:rye_3 all farming_wheat_3.png^[hsl:0:0:30
+farming:rye_4 all farming_wheat_4.png^[hsl:0:0:30
+farming:rye_5 all farming_wheat_5.png^[hsl:0:0:30
+farming:rye_6 all farming_wheat_6.png^[hsl:0:0:30
+farming:rye_7 all farming_wheat_7.png^[hsl:0:0:30
+farming:rye_8 all farming_wheat_8.png^[hsl:0:0:30
+
+ethereal:mushroom_pore all ethereal_sponge.png^[hsl:5:-30:10
+ethereal:sponge_wet all ethereal_sponge.png^[hsl:-5:-10:-10
+ethereal:banana all,inventory,wield farming_banana_single.png
+ethereal:lemon all ethereal_lemon_fruit.png
+ethereal:dry_dirt all default_dirt.png^[hsl:0:-50:0^[contrast:60:10
+ethereal:fish_seahorse_yellow wield,inventory ethereal_fish_seahorse.png^[hsl:40
+ethereal:fish_seahorse_green wield,inventory ethereal_fish_seahorse.png^[hsl:120:0:-20
+ethereal:fish_seahorse_blue wield,inventory ethereal_fish_seahorse.png^[hsl:-140:0:-20
+ethereal:fish_seahorse_pink wield,inventory ethereal_fish_seahorse.png^[hsl:-40:0:30
+
+#blocked by lack of texture aliasing support
+ethereal:yellow_wood all default_wood^[hsl:40:-20
+ethereal:frost_wood all default_wood^[hsl:-175:-20:10
+ethereal:palm_wood all default_wood^[hsl:-5:0:20
+ethereal:birch_wood all default_wood^[hsl:0:-20:30
+ethereal:banana_wood all default_wood^[hsl:0:-30:10
+ethereal:olive_wood all default_wood^[hsl:0:40:10
+
+farming:pumpkin bottom farming_pumpkin_top.png
+farming:jackolantern bottom farming_pumpkin_top.png
+farming:jackolantern_on bottom farming_pumpkin_top.png
+farming:melon_8 bottom farming_melon_top.png
+farming:sugar_cube all default_meselamp.png^[hsl:0:-50:70
+farming:rice_flour inventory,wield farming_flour.png^[contrast:0:50
+farming:flour_multigrain inventory,wield farming_flour.png^[multiply:#8b4513
+farming:cocoa_beans inventory,wield farming_cotton_seed.png^[multiply:#8b4513
+
+farming:apple_pie inventory,wield pie.png^(pie_color.png^[hsl:83)
+farming:blueberry_pie inventory,wield pie.png^(pie_color.png^[hsl:263)
+farming:rhubarb_pie inventory,wield pie.png^(pie_color.png^[hsl:295)
+
+shuriken:mese inventory,wield,all shuriken_steel.png^[multiply:#ffe500^[contrast:0:50
+shuriken:gold inventory,wield,all shuriken_steel.png^[multiply:#f7cd40
+shuriken:bronze inventory,wield,all shuriken_steel.png^[multiply:#d07736
+shuriken:diamond inventory,wield,all shuriken_steel.png^[multiply:#83ffed
+shuriken:wooden inventory,wield,all shuriken_steel.png^[multiply:#a76e45
+shuriken:stone inventory,wield,all shuriken_steel.png^[multiply:#7d7d7d
+rangedweapons:ultra_gunsteel_ingot inventory,wield,all default_steel_ingot.png^[multiply:#c7f7eb
+rangedweapons:gunsteel_ingot inventory,wield,all default_steel_ingot.png^[multiply:#9fc1c1
+
+mobs:meatblock_raw all mobs_meat_raw_side.png^[hsl:0:10:-20
+mobs:meatblock all mobs_meat_raw_side.png^[hsl:15:-30:-45
+mobs:rat_cooked inventory,wield mobs_rat_inv.png^[multiply:#785842^[transform2
+animalia:rat_cooked inventory,wield mobs_rat_inv.png^[multiply:#785842^[transform2
+animalia:rat_raw inventory,wield mobs_rat_inv.png^[transform2
+mobs:rabbit_hide inventory,wield mobs_leather.png^[hsl:15
+mobs_animal:sheep_red inventory,wield (wool_red.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_blue inventory,wield (wool_blue.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_cyan inventory,wield (wool_cyan.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_grey inventory,wield (wool_grey.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_pink inventory,wield (wool_pink.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_black inventory,wield (wool_black.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_brown inventory,wield (wool_brown.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_green inventory,wield (wool_green.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_white inventory,wield (wool_white.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_orange inventory,wield (wool_orange.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_violet inventory,wield (wool_violet.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_yellow inventory,wield (wool_yellow.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_magenta inventory,wield (wool_magenta.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_dark_grey inventory,wield (wool_dark_grey.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+mobs_animal:sheep_dark_green inventory,wield (wool_dark_green.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+
+animalia:spawn_sheep inventory,wield (wool_white.png^[mask:mobs_sheep_inv_mask.png)^mobs_sheep_inv.png
+animalia:spawn_chicken inventory,wield mobs_chicken_inv.png
+animalia:spawn_cow inventory,wield mobs_cow_inv.png
+animalia:spawn_cat inventory,wield mobs_kitten_inv.png
+animalia:turkey_egg inventory,wield mobs_chicken_egg.png
+animalia:turkey_egg_fried inventory,wield mobs_chicken_egg_fried.png
+animalia:chicken_egg inventory,wield mobs_chicken_egg.png
+animalia:chicken_egg_fried inventory,wield mobs_chicken_egg_fried.png
+animalia:song_bird_egg inventory,wield mobs_chicken_egg.png
+animalia:song_bird_egg_fried inventory,wield mobs_chicken_egg_fried.png
+animalia:leather inventory,wield mobs_leather.png
+animalia:pelt_bear inventory,wield mobs_leather.png^[contrast:0:-40
+animalia:porkchop_raw inventory,wield mobs_pork_raw.png
+animalia:porkchop_cooked inventory,wield mobs_pork_cooked.png
+animalia:mutton_raw inventory,wield mobs_mutton_raw.png
+animalia:mutton_cooked inventory,wield mobs_mutton_cooked.png
+animalia:poultry_raw inventory,wield mobs_chicken_raw.png
+animalia:poultry_cooked inventory,wield mobs_chicken_cooked.png
+animalia:beef_raw inventory,wield mobs_meat_raw.png
+animalia:beef_cooked inventory,wield mobs_meat.png
+animalia:nametag inventory,wield mobs_nametag.png
+animalia:lasso inventory,wield mobs_magic_lasso.png
+animalia:net inventory,wield mobs_net.png
+animalia:shears inventory,wield mobs_shears.png
+animalia:saddle inventory,wield mobs_saddle.png
+animalia:bucket_milk inventory,wield mobs_bucket_milk.png
+animalia:bucket_guano inventory,wield bucket.png^(bucket_mask.png^[hsl:84:-20:-50)
+animalia:libri_animalia inventory,wield default_book.png^[hsl:80:50
+animalia:feather inventory,wield mobs_chicken_feather.png
+mcl_cherry_blossom:pink_petals inventory,wield mcl_cherry_blossom_pink_petals.png
+
+bonemeal:gelatin_powder inventory,wield powder.png^[hsl:35:-30:50
+bonemeal:mulch inventory,wield bonemeal_bonemeal_bone.png^(powder.png^[hsl:25:-50:0)
+bonemeal:fertiliser inventory,wield bonemeal_bonemeal_bone.png^(powder.png^[hsl:80:-30:0)
+bonemeal:bonemeal inventory,wield bonemeal_bonemeal_bone.png^(powder.png^[hsl:35:-90:70)
+
+ethereal:scorched_tree sides default_tree.png^[hsl:0:-100:-50
+ethereal:scorched_tree top,bottom default_tree_top.png^[hsl:0:-100:-50
+default:dry_dirt all default_dirt.png^[contrast:20:30
+default:dry_dirt_with_dry_grass sides default_dirt.png^[contrast:20:30^default_dry_grass_side.png
+default:dry_dirt_with_dry_grass bottom default_dirt.png^[contrast:20:30
+ethereal:fish_shrimp inventory,wield ethereal_fish_shrimp_cooked.png^[hsl:0:-90:20
+ethereal:snowygrass all,inventory,wield default_snow.png^[mask:(default_grass_5.png\^\[contrast\:-80\:80)
+ethereal:spore_grass all,inventory,wield default_grass_5.png^[hsl:200
+ethereal:crystalgrass all,inventory,wield default_grass_5.png^[hsl:150:0:30
+ethereal:dry_shrub all,inventory,wield default_dry_shrub.png^[hsl:-30:50

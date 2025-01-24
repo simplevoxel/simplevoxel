@@ -1,0 +1,4 @@
+gimp values
+gray default_tin_block.png
+-15 hue -5 saturation
+-10 -25 -20

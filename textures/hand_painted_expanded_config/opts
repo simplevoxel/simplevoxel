@@ -1,0 +1,3 @@
+src=~/.minetest/textures/hand_painted_expanded_excluded
+dst=$(pwd)/../hand_painted_expanded
+pcfg=$(pwd)

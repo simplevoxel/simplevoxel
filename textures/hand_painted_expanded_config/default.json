@@ -1,0 +1,9 @@
+{
+  "select_pixel": "min",
+  "dims_div": 2,
+  "dims_min": 64,
+  "quantization": "bit5",
+  "dithering": {
+    "method": "none"
+  }
+}

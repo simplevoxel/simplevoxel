@@ -1,0 +1,16 @@
+These overrides are not used because mods can't inherit them.
+wool:black * wool_white^[contrast:0:-95
+wool:white * wool_white^[contrast:-10:20
+wool:dark_grey * wool_white^[contrast:0:-80
+wool:grey * wool_white^[hsl:0,-100,0^[contrast:0:-50
+wool:blue * wool_white^[contrast:0:-60^[colorizehsl:210,100,0
+wool:red * wool_white^[contrast:0:-60^[colorizehsl:0,100,0
+wool:magenta * wool_white^[contrast:0:-60^[colorizehsl:327,100,0
+wool:green * wool_white^[contrast:0:-60^[colorizehsl:99,100,0
+wool:dark_green * wool_white^[contrast:0:-80^[colorizehsl:101,100,0
+wool:cyan * wool_white^[contrast:0:-50^[colorizehsl:183,100,0
+wool:yellow * wool_white^[contrast:-50:-30^[colorizehsl:50,100,0
+wool:orange * wool_white^[contrast:-50:-30^[colorizehsl:22,100,0
+wool:pink * wool_white^[contrast:-50:0^[colorizehsl:0,100,0
+wool:violet * wool_white^[contrast:0:-60^[colorizehsl:273,100,0
+wool:brown * wool_white^[contrast:0:-90^[colorizehsl:30,100,0

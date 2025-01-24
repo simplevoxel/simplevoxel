@@ -1,0 +1,75 @@
+[submodule "mods/installed/3d_armor"]
+	path = mods/installed/3d_armor
+	url = https://github.com/minetest-mods/3d_armor
+[submodule "mods/installed/anvil"]
+	path = mods/installed/anvil
+	url = https://github.com/minetest-mods/anvil
+[submodule "mods/installed/connected_chests"]
+	path = mods/installed/connected_chests
+	url = https://github.com/HybridDog/connected_chests
+[submodule "mods/installed/dungeon_flora"]
+	path = mods/installed/dungeon_flora
+	url = https://github.com/RNU4/mintest-dungeon-flora
+[submodule "mods/installed/edit_skin"]
+	path = mods/installed/edit_skin
+	url = https://github.com/MrRar/edit_skin
+[submodule "mods/installed/farming_redo"]
+	path = mods/installed/farming_redo
+	url = https://codeberg.org/tenplus1/farming
+[submodule "mods/installed/hudbars"]
+	path = mods/installed/hudbars
+	url = https://codeberg.org/Wuzzy/minetest_hudbars
+[submodule "mods/installed/hbhunger"]
+	path = mods/installed/hbhunger
+	url = https://codeberg.org/Wuzzy/minetest_hbhunger
+[submodule "mods/installed/hbarmor"]
+	path = mods/installed/hbarmor
+	url = https://codeberg.org/Wuzzy/minetest_hbarmor
+[submodule "mods/installed/i3"]
+	path = mods/installed/i3
+	url = https://github.com/mt-historical/i3
+[submodule "mods/installed/itemframes"]
+	path = mods/installed/itemframes
+	url = https://codeberg.org/tenplus1/itemframes
+[submodule "mods/installed/mesecons"]
+	path = mods/installed/mesecons
+	url = https://github.com/minetest-mods/mesecons
+[submodule "mods/installed/mobs_redo"]
+	path = mods/installed/mobs_redo
+	url = https://codeberg.org/tenplus1/mobs_redo
+[submodule "mods/installed/mobs_npc"]
+	path = mods/installed/mobs_npc
+	url = https://codeberg.org/tenplus1/mobs_npc
+[submodule "mods/installed/mobs_animal"]
+	path = mods/installed/mobs_animal
+	url = https://codeberg.org/tenplus1/mobs_animal
+[submodule "mods/installed/mobs_skeletons"]
+	path = mods/installed/mobs_skeletons
+	url = https://codeberg.org/tenplus1/mobs_skeletons
+[submodule "mods/installed/mobs_sky"]
+	path = mods/installed/mobs_sky
+	url = https://codeberg.org/tenplus1/mobs_sky
+[submodule "mods/installed/mobs_water"]
+	path = mods/installed/mobs_water
+	url = https://codeberg.org/tenplus1/mobs_water
+[submodule "mods/installed/mobs_ghost_redo"]
+	path = mods/installed/mobs_ghost_redo
+	url = https://codeberg.org/tenplus1/mobs_ghost_redo
+[submodule "mods/installed/mob_horse"]
+	path = mods/installed/mob_horse
+	url = https://codeberg.org/tenplus1/mob_horse
+[submodule "mods/installed/mobs_monster"]
+	path = mods/installed/mobs_monster
+	url = https://codeberg.org/tenplus1/mobs_monster
+[submodule "mods/installed/nextgen_bows"]
+	path = mods/installed/nextgen_bows
+	url = https://github.com/starninjas/nextgen_bows
+[submodule "mods/installed/playereffects"]
+	path = mods/installed/playereffects
+	url = https://codeberg.org/Wuzzy/minetest_playereffects
+[submodule "mods/installed/pep"]
+	path = mods/installed/pep
+	url = https://repo.or.cz/minetest_pep.git
+[submodule "mods/installed/signs_lib"]
+	path = mods/installed/signs_lib
+	url = https://github.com/mt-mods/signs_lib

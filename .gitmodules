@@ -76,3 +76,15 @@
 [submodule "mods/installed/ladders_3d"]
 	path = mods/installed/ladders_3d
 	url = https://git.0x7be.net/dirk/ladders_3d
+[submodule "mods/installed/builtin_item"]
+	path = mods/installed/builtin_item
+	url = https://codeberg.org/tenplus1/builtin_item
+[submodule "mods/installed/item_drop"]
+	path = mods/installed/item_drop
+	url = https://github.com/minetest-mods/item_drop
+[submodule "mods/installed/fireworks"]
+	path = mods/installed/fireworks
+	url = https://github.com/KaylebJay/fireworks
+[submodule "mods/installed/findbiome"]
+	path = mods/installed/findbiome
+	url = https://codeberg.org/Wuzzy/minetest_findbiome

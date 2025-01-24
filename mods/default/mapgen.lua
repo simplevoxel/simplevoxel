@@ -763,7 +763,7 @@ function default.register_ores()
 		clust_num_ores = 3,
 		clust_size     = 2,
 		y_max          = -256,
-		y_min          = -511,
+		y_min          = -383, -- fix:shallower stone_with_gold
 	})
 
 	minetest.register_ore({
@@ -773,7 +773,7 @@ function default.register_ores()
 		clust_scarcity = 13 * 13 * 13,
 		clust_num_ores = 5,
 		clust_size     = 3,
-		y_max          = -512,
+		y_max          = -384, -- fix:shallower stone_with_gold
 		y_min          = -31000,
 	})
 
@@ -797,8 +797,8 @@ function default.register_ores()
 		clust_scarcity = 18 * 18 * 18,
 		clust_num_ores = 3,
 		clust_size     = 2,
-		y_max          = -512,
-		y_min          = -1023,
+		y_max          = -256, -- fix:shallower stone_with_mese
+		y_min          = -383, -- fix:shallower stone_with_mese
 	})
 
 	minetest.register_ore({
@@ -808,7 +808,7 @@ function default.register_ores()
 		clust_scarcity = 14 * 14 * 14,
 		clust_num_ores = 5,
 		clust_size     = 3,
-		y_max          = -1024,
+		y_max          = -384, -- fix:shallower stone_with_mese
 		y_min          = -31000,
 	})
 
@@ -832,8 +832,8 @@ function default.register_ores()
 		clust_scarcity = 17 * 17 * 17,
 		clust_num_ores = 4,
 		clust_size     = 3,
-		y_max          = -1024,
-		y_min          = -2047,
+		y_max          = -256, -- fix:shallower stone_with_diamond
+		y_min          = -383, -- fix:shallower stone_with_diamond
 	})
 
 	minetest.register_ore({
@@ -843,7 +843,7 @@ function default.register_ores()
 		clust_scarcity = 15 * 15 * 15,
 		clust_num_ores = 4,
 		clust_size     = 3,
-		y_max          = -2048,
+		y_max          = -384, -- fix:shallower stone_with_diamond
 		y_min          = -31000,
 	})
 
@@ -867,8 +867,8 @@ function default.register_ores()
 		clust_scarcity = 36 * 36 * 36,
 		clust_num_ores = 3,
 		clust_size     = 2,
-		y_max          = -2048,
-		y_min          = -4095,
+		y_max          = -256, -- fix:shallower mese
+		y_min          = -383, -- fix:shallower mese
 	})
 
 	minetest.register_ore({
@@ -878,7 +878,7 @@ function default.register_ores()
 		clust_scarcity = 28 * 28 * 28,
 		clust_num_ores = 5,
 		clust_size     = 3,
-		y_max          = -4096,
+		y_max          = -384, -- fix:shallower mese
 		y_min          = -31000,
 	})
 end

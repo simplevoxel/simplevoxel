@@ -73,3 +73,6 @@
 [submodule "mods/installed/signs_lib"]
 	path = mods/installed/signs_lib
 	url = https://github.com/mt-mods/signs_lib
+[submodule "mods/installed/ladders_3d"]
+	path = mods/installed/ladders_3d
+	url = https://git.0x7be.net/dirk/ladders_3d

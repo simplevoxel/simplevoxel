@@ -88,3 +88,6 @@
 [submodule "mods/installed/findbiome"]
 	path = mods/installed/findbiome
 	url = https://codeberg.org/Wuzzy/minetest_findbiome
+[submodule "mods/installed/everness"]
+	path = mods/installed/everness
+	url = https://bitbucket.org/minetest_gamers/everness/src/master

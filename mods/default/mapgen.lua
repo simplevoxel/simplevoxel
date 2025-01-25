@@ -1497,7 +1497,7 @@ function default.register_biomes()
 		node_dungeon_alt = "default:mossycobble",
 		node_dungeon_stair = "stairs:stair_cobble",
 		y_max = 31000,
-		y_min = 1,
+		y_min = 2, -- fix:papyrus
 		heat_point = 89,
 		humidity_point = 42,
 	})
@@ -1513,7 +1513,7 @@ function default.register_biomes()
 		node_dungeon = "default:cobble",
 		node_dungeon_alt = "default:mossycobble",
 		node_dungeon_stair = "stairs:stair_cobble",
-		y_max = 0,
+		y_max = 1, -- fix:papyrus
 		y_min = -1,
 		heat_point = 89,
 		humidity_point = 42,
@@ -1532,7 +1532,7 @@ function default.register_biomes()
 		node_dungeon_alt = "default:mossycobble",
 		node_dungeon_stair = "stairs:stair_cobble",
 		vertical_blend = 1,
-		y_max = -2,
+		y_max = -2, -- fix:papyrus
 		y_min = -255,
 		heat_point = 89,
 		humidity_point = 42,
@@ -1564,7 +1564,7 @@ function default.register_biomes()
 		node_dungeon_alt = "default:mossycobble",
 		node_dungeon_stair = "stairs:stair_cobble",
 		y_max = 31000,
-		y_min = 1,
+		y_min = 2, -- fix:papyrus
 		heat_point = 86,
 		humidity_point = 65,
 	})
@@ -1580,7 +1580,7 @@ function default.register_biomes()
 		node_dungeon = "default:cobble",
 		node_dungeon_alt = "default:mossycobble",
 		node_dungeon_stair = "stairs:stair_cobble",
-		y_max = 0,
+		y_max = 1, -- fix:papyrus
 		y_min = -1,
 		heat_point = 86,
 		humidity_point = 65,

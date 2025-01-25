@@ -1,0 +1,6 @@
+{
+  "select_pixel": "avg",
+  "dims_div": 1,
+  "dims_min": 64,
+  "quantization": "none"
+}

@@ -1,0 +1,3 @@
+src=$(pwd)/../../mods/installed/i3/textures
+dst=$(pwd)/../i3
+pcfg=$(pwd)

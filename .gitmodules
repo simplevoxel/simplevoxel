@@ -91,3 +91,6 @@
 [submodule "mods/installed/everness"]
 	path = mods/installed/everness
 	url = https://bitbucket.org/minetest_gamers/everness/src/master
+[submodule "mods/installed/hopper"]
+	path = mods/installed/hopper
+	url = https://github.com/minetest-mods/hopper

@@ -94,3 +94,6 @@
 [submodule "mods/installed/hopper"]
 	path = mods/installed/hopper
 	url = https://github.com/minetest-mods/hopper
+[submodule "mods/installed/protector"]
+	path = mods/installed/protector
+	url = https://codeberg.org/tenplus1/protector

@@ -27,13 +27,13 @@
 	url = https://codeberg.org/Wuzzy/minetest_hbarmor
 [submodule "mods/installed/i3"]
 	path = mods/installed/i3
-	url = https://github.com/mt-historical/i3
+	url = https://github.com/simplevoxel/sv_i3
 [submodule "mods/installed/itemframes"]
 	path = mods/installed/itemframes
 	url = https://codeberg.org/tenplus1/itemframes
 [submodule "mods/installed/mesecons"]
 	path = mods/installed/mesecons
-	url = https://github.com/minetest-mods/mesecons
+	url = https://github.com/simplevoxel/sv_mesecons
 [submodule "mods/installed/mobs_redo"]
 	path = mods/installed/mobs_redo
 	url = https://codeberg.org/tenplus1/mobs_redo
@@ -75,7 +75,7 @@
 	url = https://github.com/mt-mods/signs_lib
 [submodule "mods/installed/ladders_3d"]
 	path = mods/installed/ladders_3d
-	url = https://git.0x7be.net/dirk/ladders_3d
+	url = https://github.com/simplevoxel/sv_ladders_3d
 [submodule "mods/installed/builtin_item"]
 	path = mods/installed/builtin_item
 	url = https://codeberg.org/tenplus1/builtin_item
@@ -96,4 +96,4 @@
 	url = https://github.com/minetest-mods/hopper
 [submodule "mods/installed/protector"]
 	path = mods/installed/protector
-	url = https://codeberg.org/tenplus1/protector
+	url = https://github.com/simplevoxel/sv_protector

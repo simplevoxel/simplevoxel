@@ -1,3 +1,17 @@
+# SimpleVoxel
+
+Install preferred mods for Minetest Game and consider making some modifications to enhance them.
+
+Clone this repository, then execute the following command to install all the mods:
+
+```
+git submodule update --init
+```
+
+### Credits
+
+[Hand Painted Pack Expanded](https://content.luanti.org/packages/shaft/hand_painted_expanded/)
+
 # Minetest Game
 
 [![ContentDB](https://content.luanti.org/packages/Minetest/minetest_game/shields/title/)](https://content.luanti.org/packages/Minetest/minetest_game/)

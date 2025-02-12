@@ -11,6 +11,8 @@ git-helper add mods/installed/mesecons https://github.com/minetest-mods/mesecons
 git-helper add mods/installed/i3 https://github.com/mt-historical/i3 https://github.com/simplevoxel/sv_i3
 git-helper add mods/installed/ladders_3d https://git.0x7be.net/dirk/ladders_3d https://github.com/simplevoxel/sv_ladders_3d
 git-helper add mods/installed/protector https://codeberg.org/tenplus1/protector https://github.com/simplevoxel/sv_protector
+git-helper add mods/installed/sv_weather https://github.com/simplevoxel/sv_weather
+git-helper add mods/installed/sv_spawn https://github.com/simplevoxel/sv_spawn
 git-helper add mods/installed/3d_armor https://github.com/minetest-mods/3d_armor
 git-helper add mods/installed/anvil https://github.com/minetest-mods/anvil
 git-helper add mods/installed/connected_chests https://github.com/HybridDog/connected_chests

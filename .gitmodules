@@ -97,3 +97,9 @@
 [submodule "mods/installed/protector"]
 	path = mods/installed/protector
 	url = https://github.com/simplevoxel/sv_protector
+[submodule "mods/installed/sv_weather"]
+	path = mods/installed/sv_weather
+	url = https://github.com/simplevoxel/sv_weather
+[submodule "mods/installed/sv_spawn"]
+	path = mods/installed/sv_spawn
+	url = https://github.com/simplevoxel/sv_spawn
